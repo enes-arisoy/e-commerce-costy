@@ -19,9 +19,13 @@
         font-size: 96px !important;
         top: -35px !important;
     }
+
+    .cart-box {
+        grid-template-columns: 1fr !important;
+    }
 }
 
-@media (max-width: 720px) {
+@media (max-width: 728px) {
     .home-img::before {
         font-size: 80px !important;
         top: -40px !important;
@@ -30,12 +34,7 @@
     .home-img {
         height: 70vh !important;
     }
-
-    .cart-box {
-        grid-template-columns: 1fr !important;
-    }
 }
-
 
 @media (max-width: 550px) {
     #menu-icon {
@@ -69,5 +68,9 @@
 
     .home-img::before {
         font-size: 50px !important;
+    }
+
+    .footer-c {
+        grid-template-columns: 1fr !important;
     }
 }

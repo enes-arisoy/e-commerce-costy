@@ -1,0 +1,87 @@
+footer {
+    background-color: $main-color;
+    padding: 40px 10px;
+    margin-top: 50px;
+
+    .footer-c {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+        gap: 20px !important;
+        padding: 20px !important;
+        color: $bg-color;
+        text-align: start;
+
+        .footer-box {
+            display: flex;
+            flex-direction: column;
+
+            h2 {
+                font-size: 110px;
+            }
+
+            .social {
+                display: flex;
+                align-items: center;
+                column-gap: 13px;
+
+                i {
+                    background-color: $bg-color;
+                    font-size: 16px;
+                    padding: 10px;
+                    border-radius: 50%;
+                    color: $main-color;
+                }
+
+            }
+
+            h3 {
+                color: $bg-color;
+                margin-top: 20px;
+            }
+
+            a {
+                color: $bg-color;
+                padding-top: 30px;
+            }
+
+            p {
+                margin-top: 20px !important;
+                
+            }
+
+            form {
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+
+                input {
+                    max-width: 270px;
+                    height: 20px;
+                    padding: 10px;
+                    border-radius: 5px;
+                    margin-top: 10px;
+                }
+
+                button {
+
+                    display: inline;
+                    width: 100px;
+                    padding: 5px;
+                    border-radius: 5px;
+                    color: $main-color;
+                    
+                    
+                    cursor: pointer;
+                    &:hover {
+                       box-shadow: 0 0 10px $bg-color;
+                    }
+                }
+            }
+        }
+    }
+    .copyright {
+        text-align: center;
+        margin-top: 30px;
+        color: $bg-color;
+    }
+}
